@@ -4,6 +4,17 @@ Disallow: /admin/
 Disallow: /login/
 Disallow: /private/
 Disallow: /tmp/
+Disallow: /cgi-bin/
 
-# Lien vers le sitemap pour guider les moteurs
+# Bloque les URL avec des paramètres non pertinents
+Disallow: /*?*
+
+# Blocage spécifique pour certains robots malveillants
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap pour guider les moteurs de recherche
 Sitemap: https://clairvoyancemedium.github.io/spol-ahlive-a-rychle-vestenie-emailom.github.io/sitemap.xml
