@@ -39,4 +39,14 @@
         <loc>https://clairvoyancemedium.github.io/spol-ahlive-a-rychle-vestenie-emailom.github.io/blog/first-post</loc>
         <lastmod>2025-01-18</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</pr
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Sitemap index pour futurs ajouts -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/spol-ahlive-a-rychle-vestenie-emailom.github.io/blog-sitemap.xml</loc>
+        <lastmod>2025-01-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
